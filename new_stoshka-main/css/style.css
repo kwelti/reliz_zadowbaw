@@ -1,0 +1,156 @@
+body{
+    font-family: 'Raleway';
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    gap: 77px;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    
+    padding-bottom: 10px;
+
+}
+
+.link{
+    flex-grow: 1;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s all ease;
+    padding-bottom:  10px;
+    border-bottom: 3px solid black;
+   text-align: center;
+}
+
+.link:hover{
+    border-bottom: 3px solid blue;
+    color: blue;
+}
+
+
+
+.banner{
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 200px;
+    align-items: end;
+    height: 100vh;
+    background-image: url(cars.jpg);
+    background-size: cover;
+}
+
+.banner_text{
+font-size: 70px;
+margin-bottom: 0;
+position: relative;
+top: -250px;
+text-align: center;
+left: -250px;
+}
+
+.about_hello{
+    color: #0F98D3;
+    font-size: 50px;
+
+}
+.about_us{
+    padding: 75px 0 145px 30px;
+    width: 70%;
+}
+
+.image{
+    top: 500px;
+    size: 700px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.second_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.learn_school{
+    width: 600px;
+    font-size: 30px;
+}
+
+.about_school{
+    font-size: 40px;
+    width: 500px;
+}
+
+.why_title{
+    text-align: center;
+    font-size: 60px;
+    color:#0F98D3;
+}
+
+.why{
+    font-size: 30px;
+}
+
+
+.list{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.locations_title{
+    font-size: 30px;
+    color:white;
+}
+
+.locations{
+    font-size: 26px;
+    color: white;
+
+}
+
+footer{
+    background-color: #2CA9DF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 30px 40px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.form input{
+    padding: 10px 30px;
+}
+
+.title_form{
+    font-size: 30px;
+    color: white;
+}
+
+.buy_title{
+    text-align:left;
+}
+

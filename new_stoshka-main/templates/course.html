@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{url_for('static', filename = 'course.css')}}">
+</head>
+<body>
+    <header>
+        <img src="img/POWER.png" alt="">
+        <nav>
+            <a href="index.html" class="link">Хто ми?</a>
+            <a href="course.html" class="link">Хочу записатись!</a>
+            <a href="news.html" class="link">Останні новини</a>
+        </nav>
+    </header>
+    <main>
+        <section class="course">
+            <div class="want_course">
+                <h1 class="buy_course">Хочу записатись!</h1>
+
+            <div class="filter-container">
+                <select>
+                    <option disabled selected>Оберіть послугу</option>
+                    <option>Діагностика</option>
+                    <option>Заміна масла</option>
+                    <option>Шиномонтаж</option>
+                </select>
+                <select> 
+                    <option disabled selected>Оберіть марку</option>
+                    <option>BMW</option>
+                    <option>Volkswagen</option> 
+                    <option>Toyota</option>
+                </select>
+                <select>
+                    <option disabled selected>Оберіть місто</option>
+                    <option>Київ</option> 
+                    <option>Львів</option>
+                    <option>Харків</option>
+                </select>
+                <select>
+                    <option disabled selected>Оберіть час</option>
+                    <option>з 10:00 до 12:00</option> 
+                    <option>з 12:00 до 15:00</option>
+                    <option>з 15:00 до 18:00 </option>
+                    <option>з 18:00 до 21:00 </option>
+
+                </select>
+                <button type="button">Знайти СТО</button>
+            </div> 
+                
+       
+        </section>
+    </main>
+  <script src="script.js"></script>
+  
+
+</body>
+</html>

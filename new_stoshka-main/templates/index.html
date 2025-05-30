@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}">
+</head>
+<body>
+    <header>
+        <img src="img/POWER.png" alt="">
+        <nav>
+            <a href="" class="link">Хто ми?</a>
+            <a href="#org" class="link">Наші організації</a>
+            <a href="course.html" class="link">Хочу записатись</a>
+            <a href="news.html" class="link">Останні новини</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="text">
+                <h1 class="banner_text">СТАНЦІЯ<br>ТЕХНІЧНОГО<br>ОБСЛУГОВУВАННЯ</h1>
+            <img src="img/POWER.png" width="250px" alt="">
+            
+            </div>
+       
+        </section>
+
+        <section class="second_img">
+            <div class="about_us">
+                <h1 class="about_hello">Привіт!</h1>
+                <h3 class="about_school">Станція технічного обслуговування "Power" </h3>
+                <p class="learn_school">Допомагає швидко і якісно вирішити ваші питання. Ваші проблеми - наше випробуання.</p>
+
+
+
+            </div>
+            <div class="image">
+                <img src="{{url_for('static', filename = 'master.jpg')}}" alt="">
+            </div>
+        </section>
+
+        <section class="why_us">
+            <div class="why_we">
+                <h1 class="why_title">Чому саме ми?</h1>
+                <ul type="disk" class="list">
+                    <li class="why">Пробуємо завжди щось нове та незвичайне.</li>
+                    <li class="why">Швидко реагуємо на ваші запити та вчасно повертаємо транспортний засіб.</li>
+                    <li class="why">Маємо в наявності багато видів послуг.</li>
+                </ul>
+
+
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="our_locations">
+            <p class="locations_title" id="org">Наші організації:</p>
+            <ol class="list_locations">
+                <li class="locations">Вінниця, вул. Келецька 45</li>
+                <li class="locations">Київ, вул. Магістральна 3</li>
+                <li class="locations">Луцьк, вул. Рогова 34</li>
+                <li class="locations">Львів, вул. Авіаційна 12</li>
+
+            </ol>
+        
+        </div>
+        <div class="form">
+            <p class="title_form">Реєструйся!</p>
+            <input type="text" placeholder="Ім'я">
+            <input type="text" placeholder="Ел.пошта">
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
